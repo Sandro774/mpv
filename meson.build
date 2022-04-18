@@ -2,7 +2,7 @@ project('mpv',
         'c',
         license: ['GPL2+', 'LGPL2.1+'],
         version: files('./VERSION'),
-        meson_version: '>=0.60.3',
+        meson_version: '>=0.59.4',
         default_options: [
             'buildtype=debugoptimized',
             'b_lundef=false',
